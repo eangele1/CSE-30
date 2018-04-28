@@ -13,7 +13,7 @@ void display(long list[], long s){
 }
 
 int main(int argc, const char * argv[]) {
-    const long size = 30000;
+    const long size = 15000000;
     // Visual Studio users will have to hard-code the size of the array
     long* v = new long[size];
     

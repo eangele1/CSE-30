@@ -5,14 +5,12 @@
 
 int findMin (int numbers[], int start, int end){
     
-    int result = 0;
+    int result = start;
     
-    for (int i = 0; i < sizeof(&numbers); i++){
-        
-        if (numbers[i] > start || numbers[i] < end){
-            result = numbers[i];
+    for (int i = start + 1; i < end; i++){
+        if (numbers[i] < numbers[result]){
+            result = i;
         }
-        
     }
     
     return result;
