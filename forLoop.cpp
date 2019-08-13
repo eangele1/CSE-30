@@ -13,7 +13,7 @@ int main() {
 
     cin >> x;
 
-    for(int i = 0; i > x; i++){
+    for(int i = 0; i < x; i++){
         cout << input << endl;
     }
     
